@@ -25,7 +25,7 @@ Zero-dependency, static HTML login page with PKCE OAuth2. No backend needed — 
 - **Token storage**: `localStorage` (`hanzo_access_token`, `hanzo_refresh_token`)
 - **Auto-discovery**: Fetches `/.well-known/openid-configuration` from the issuer
 
-## Auth.js API
+## id.js API
 
 ```js
 HanzoAuth.init({ issuer, clientId, redirectUri, scope })
@@ -60,7 +60,7 @@ npx wrangler pages deploy . --project-name my-login
 | File | Size | Purpose |
 |------|------|---------|
 | `index.html` | ~4KB | Login page with SSO + email/password |
-| `auth.js` | ~4KB | PKCE OAuth2 client (zero deps) |
+| `id.js` | ~4KB | PKCE OAuth2 client (zero deps) |
 
 ## License
 
