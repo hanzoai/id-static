@@ -68,8 +68,8 @@
     // Initialize from URL params or defaults
     const params = new URLSearchParams(location.search)
     const config = HanzoAuth.init({
-      issuer:   params.get('issuer')   || window.HANZO_ISSUER   || 'https://hanzo.id',
-      clientId: params.get('client_id')|| window.HANZO_CLIENT_ID|| 'app-hanzo',
+      issuer:   params.get('issuer')   || window.IAM_ISSUER     || 'https://hanzo.id',
+      clientId: params.get('client_id')|| window.IAM_CLIENT_ID  || 'app-hanzo',
       redirectUri: params.get('redirect_uri') || location.origin + location.pathname,
     })
 
