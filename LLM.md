@@ -1,4 +1,4 @@
-# id-static — AI Assistant Context
+# id-static
 
 # Hanzo ID — Static Login Template
 
