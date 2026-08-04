@@ -64,4 +64,4 @@ npx wrangler pages deploy . --project-name my-login
 
 ## License
 
-MIT
+MIT OR Apache-2.0, at your option — see [HIP-0137](https://github.com/hanzoai/hips/blob/main/HIPs/hip-0137-one-license.md).
